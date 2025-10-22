@@ -1,0 +1,38 @@
+body {
+  font-family: "arieal", sans-serif;
+  margin: 20px;
+  background-color: #369cf5;
+  color: rgb (25, 25, 112);
+}
+h1 {
+  font: "fantasy";
+  margin: 30px;
+  color: rgb (0, 0, 139);
+  text-align: center;
+  border: 20px;
+}
+#temp-display {
+  background-image: url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?semt=ais_hybrid&w=740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+#weather-display {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/35/Fall_Wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: local;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #ffffff;
+}

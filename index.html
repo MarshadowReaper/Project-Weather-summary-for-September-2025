@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Recorder</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <h1>September 2025 Weather Recorder</h1>
+    <h1>By Tajee</h1>
+    <nav>
+      <a href="#Temperature">Temperature Data</a> |
+      <a href="#Weather">Weather Summary</a>
+    </nav>
+    <img
+      src="https://mustlovelists.com/wp-content/uploads/2019/08/September-fall-leaf-min.png"
+    />
+    <p>
+      Hello People! This is my project for Code The Dream Academy. This website
+      will give a summary of the weather for last month.
+    </p>
+    <p>I will be using the Open-Meteo API to get the weather data.</p>
+    <div id="temp-display">
+      <h2 id="Temperature">Temperature Data for September 2025</h2>
+      <p>Loading data from the Open-Meteo API...</p>
+      <ul>
+        <li id="avg-temp">Average Temperature:</li>
+        <li id="max-temp">Maximum Temperature:</li>
+        <li id="min-temp">Minimum Temperature:</li>
+        <li id="total-precip">Total Precipitation:</li>
+        <li id="Total-Rainfall">Total Rainfall:</li>
+        <li id="avg-wind">Average Wind Speed:</li>
+        <li id="max-wind">Maximum Wind Speed:</li>
+        <li id="avg-humidity">Average Humidity:</li>
+        <li id="max-humidity">Maximum Humidity:</li>
+      </ul>
+    </div>
+    <div id="weather-display">
+      <h2 id="Weather">Weather</h2>
+      <p>Loading weather ...</p>
+      <div class="Weather Dates"></div>
+      <ul></ul>
+    </div>
+    <footer>
+      <p>&copy; 2025 Tajee</p>
+      <script src="index.js"></script>
+    </footer>
+  </body>
+</html>
